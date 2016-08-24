@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Omicron Solo Angular</title>
+    <script type="text/javascript" src="vendors/angular.min.js"></script>
+    <script type="text/javascript" src="vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="scripts/clientside.js"></script>
+    <link rel="stylesheet" href="/styles/stylesheet.css" />
+
+</head>
+
+
+<body>
+    <h1>HEADER</h1>
+    <div ng-include="'/views/partials/nav.html'"></div>
+    <main ng-view> </main>
+    <h3>FOOTER</h3>
+
+</body>
+
+
+</html>
